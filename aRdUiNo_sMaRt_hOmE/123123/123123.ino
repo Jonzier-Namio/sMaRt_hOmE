@@ -8,6 +8,7 @@ Serial.begin(9600);
 
 void loop() {
   if (digitalRead(2)==HIGH){
+  Serial.println("Hai Long Wang Peter Is coming!!!");
   digitalWrite(12, HIGH);
   digitalWrite(11, LOW);
   tone(7, 392, 234);
@@ -445,7 +446,9 @@ void loop() {
   tone(7, 349, 234);
   delay(234);
   } else {
+    Serial.println("Haiyah.");
     digitalWrite(12, LOW);
     digitalWrite(11, LOW);
+    delay(1000);
   }
 }
