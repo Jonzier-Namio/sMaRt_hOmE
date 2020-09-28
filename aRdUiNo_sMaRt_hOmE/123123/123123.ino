@@ -4,7 +4,7 @@ pinMode(12 ,OUTPUT);
 
 void loop() {
 digitalWrite(12, HIGH);
-delay(100);
+delay(500);
 digitalWrite(12, LOW);
-delay(250);
+delay(500);
 }
