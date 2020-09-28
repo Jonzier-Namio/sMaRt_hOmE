@@ -444,5 +444,8 @@ void loop() {
   digitalWrite(11, HIGH);
   tone(7, 349, 234);
   delay(234);
+  } else {
+    digitalWrite(12, LOW);
+    digitalWrite(11, LOW);
   }
 }
